@@ -1,0 +1,51 @@
+.buttondown {
+  margin:auto;
+  border-radius: 8px;
+  height: 30px;
+  display: block;
+  padding: 3pt;
+}
+@media only screen and (max-width: 600px) { .buttondown {width: 80%;}}
+@media only screen and (min-width: 600px) { .buttondown {width: 40%;}}
+
+.downsubs {
+  border: 2px solid #DC3483;
+  background: linear-gradient(to right, #DC3483 50%, #2a004b  50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .6s ease-out;
+}
+.downhulu {
+  border: 2px solid #1CE783;
+  background: linear-gradient(to right, #1CE783 50%, #2a004b  50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .6s ease-out;
+}
+.downgen {
+  border: 2px solid #b4b4b4;
+  background: linear-gradient(to right, #b4b4b4 50%, #131214  50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .6s ease-out;
+}
+.downsubs:hover, .downhulu:hover, .downgen:hover {  background-position: left bottom; }
+
+.buttontext {
+  text-align: center;
+  font-size: 16px;
+  line-height: 30px;
+  display: block; 
+}
+.textsubs, .textembd { color: #DC3483; transition: all .4s ease-out;}
+.texthulu { color: #1CE783; transition: all .4s ease-out;}
+.textfont, .textgen { color: #b4b4b4; transition: all .4s ease-out;}
+.textsubs:hover, .textembd:hover { color: white; }
+.texthulu:hover { color: white; }
+.textgen:hover, .textfont:hover { color: white; }
+
+.textsubs:before {  content: "SOFTSUB";}
+.textembd:before {  content: "MKV + SUB";}
+.texthulu:before {  content: "SOFTSUB HULU";}
+.textgen:before {  content: "RAW";}
+.textfont:before {  content: "FONT WAJIB";}
