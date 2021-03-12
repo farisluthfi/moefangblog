@@ -15,7 +15,7 @@
   background-position: right bottom;
   transition: all .6s ease-out;
 }
-.downhulu {
+.downhulu, .downtrak {
   border: 2px solid #1CE783;
   background: linear-gradient(to right, #1CE783 50%, #2a004b  50%);
   background-size: 200% 100%;
@@ -29,7 +29,7 @@
   background-position: right bottom;
   transition: all .6s ease-out;
 }
-.downsubs:hover, .downhulu:hover, .downgen:hover {  background-position: left bottom; }
+.downsubs:hover, .downtrak:hover, .downhulu:hover, .downgen:hover {  background-position: left bottom; }
 
 .buttontext {
   text-align: center;
@@ -38,14 +38,15 @@
   display: block; 
 }
 .textsubs, .textembd { color: #DC3483; transition: all .4s ease-out;}
-.texthulu { color: #1CE783; transition: all .4s ease-out;}
+.texthulu, .texttrak { color: #1CE783; transition: all .4s ease-out;}
 .textfont, .textgen { color: #b4b4b4; transition: all .4s ease-out;}
 .textsubs:hover, .textembd:hover { color: white; }
-.texthulu:hover { color: white; }
+.texthulu:hover, .texttrak:hover { color: white; }
 .textgen:hover, .textfont:hover { color: white; }
 
 .textsubs:before {  content: "SOFTSUB";}
 .textembd:before {  content: "MKV + SUB";}
 .texthulu:before {  content: "SOFTSUB HULU";}
+.texttrak:before {  content: "SOFTSUB";}
 .textgen:before {  content: "RAW";}
 .textfont:before {  content: "FONT WAJIB";}
