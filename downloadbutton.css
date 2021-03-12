@@ -37,15 +37,17 @@
   line-height: 30px;
   display: block; 
 }
-.textsubs, .texthard, .textembd { color: #DC3483; transition: all .4s ease-out;}
+.textsubs, .texthardx, .textharda, .texthardb, .textembd { color: #DC3483; transition: all .4s ease-out;}
 .texthulu, .texttrak { color: #1CE783; transition: all .4s ease-out;}
 .textfont, .textgen { color: #b4b4b4; transition: all .4s ease-out;}
-.textsubs:hover, .texthard:hover, .textembd:hover { color: white; }
+.textsubs:hover, .texthardx:hover, .textharda:hover, .texthard:hoverb, .textembd:hover { color: white; }
 .texthulu:hover, .texttrak:hover { color: white; }
 .textgen:hover, .textfont:hover { color: white; }
 
 .textsubs:before {  content: "SOFTSUB";}
-.texthard:before {  content: "HARDSUB";}
+.texthardx:before {  content: "HARDSUB";}
+.textharda:before {  content: "HARDSUB 720p";}
+.texthardb:before {  content: "HARDSUB 1080p";}
 .textembd:before {  content: "MKV + SUB";}
 .texthulu:before {  content: "SOFTSUB HULU";}
 .texttrak:before {  content: "SOFTSUB";}
