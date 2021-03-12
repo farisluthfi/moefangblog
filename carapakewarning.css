@@ -24,7 +24,7 @@
 .nott:before { content: "DILARANG KERAS "; color:#DC3483;}
 .carapake:before { content: "Cara penggunaan"; color:#DC3483;}
 
-.nott1, .nott2, .nott3, .nott4, .nott5, .stepsoft1, .stepsoft2, .stepsoft3, .stepsoft4, .stepsoft5, .stephard1, .stephard2 {
+.nott1, .nott2, .nott3, .nott4, .nott5, .stepsoft1, .stepsoft2, .stepsoft3, .stepsoft4, .stepsoft5, .stephard1, .stephard2, .stephard3, .steppassa, .steppassb {
 padding-left:13pt; text-align:justify; padding-bottom:3pt; padding-top:2pt; color:white; font-size:11pt;
 }
 .nott1:before { content: "Dilarang menghapus credit ";}
@@ -41,4 +41,6 @@ padding-left:13pt; text-align:justify; padding-bottom:3pt; padding-top:2pt; colo
 .stephard1:before { content: "Download file MKV diatas yang sudah di-zip";}
 .stephard2:before { content: "Silakan ekstrak menggunakan 7Zip atau WinRar dengan password ";}
 .stephard3:before { content: "Bagi yang mengunduh versi hardsubnya, silakan ekstrak menggunakan 7Zip atau WinRar dengan password ";}
+.steppassa:before { content: "Untuk ";}
+.steppassb:before { content: " silakan masukan passwordnya ";}
   
