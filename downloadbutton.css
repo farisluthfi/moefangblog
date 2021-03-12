@@ -39,10 +39,10 @@
 }
 .textsubs, .texthardx, .textharda, .texthardb, .textembd { color: #DC3483; transition: all .4s ease-out;}
 .texthulu, .texttrak { color: #1CE783; transition: all .4s ease-out;}
-.textfont, .textgen { color: #b4b4b4; transition: all .4s ease-out;}
+.textfont, .textgen, .textextr { color: #b4b4b4; transition: all .4s ease-out;}
 .textsubs:hover, .texthardx:hover, .textharda:hover, .texthard:hoverb, .textembd:hover { color: white; }
 .texthulu:hover, .texttrak:hover { color: white; }
-.textgen:hover, .textfont:hover { color: white; }
+.textgen:hover, .textfont:hover, .textextr:hover { color: white; }
 
 .textsubs:before {  content: "SOFTSUB";}
 .texthardx:before {  content: "HARDSUB";}
@@ -52,4 +52,5 @@
 .texthulu:before {  content: "SOFTSUB HULU";}
 .texttrak:before {  content: "SOFTSUB";}
 .textgen:before {  content: "RAW";}
+.textextr:before {  content: "EPILOGUE & EXTRAS";}
 .textfont:before {  content: "FONT WAJIB";}
