@@ -9,8 +9,8 @@
 @media only screen and (min-width: 600px) { .buttondown {width: 40%;}}
 
 .downsubs {
-  border: 2px solid #DC3483;
-  background: linear-gradient(to right, #DC3483 50%, #2a004b  50%);
+  border: 2px solid #5dbcd2;
+  background: linear-gradient(to right, #5dbcd2 50%, #2a004b  50%);
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all .6s ease-out;
@@ -37,7 +37,7 @@
   line-height: 30px;
   display: block; 
 }
-.textsubs, .texthardx, .textharda, .texthardb, .textembd { color: #DC3483; transition: all .4s ease-out;}
+.textsubs, .texthardx, .textharda, .texthardb, .textembd { color: #5dbcd2; transition: all .4s ease-out;}
 .texthulu, .texttrak { color: #1CE783; transition: all .4s ease-out;}
 .textfont, .textgen, .textextr { color: #b4b4b4; transition: all .4s ease-out;}
 .textsubs:hover, .texthardx:hover, .textharda:hover, .texthardb:hover, .textembd:hover { color: white; }
