@@ -1,0 +1,12 @@
+/*--- Trakteer untuk sidebar ---*/
+.trakside {
+content:url("https://cdn.jsdelivr.net/gh/farisluthfi/moefangblog/trakteer.svg");
+width:100%;
+}
+
+/*--- Trakteer untuk postingan ---*/
+.trakpost {
+content:url("https://cdn.jsdelivr.net/gh/farisluthfi/moefangblog/trakteer.svg");
+width:25%;
+margin-left: 35%;
+}
