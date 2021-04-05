@@ -15,9 +15,16 @@
   background-position: right bottom;
   transition: all .6s ease-out;
 }
-.downhulu, .downtrak {
+.downhulu {
   border: 2px solid #1CE783;
   background: linear-gradient(to right, #1CE783 50%, #2a004b  50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .6s ease-out;
+}
+.downtrak .downtrem {
+  border: 2px solid #1CE783;
+  background: linear-gradient(to right, #be1e2d 50%, #2a004b  50%);
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all .6s ease-out;
@@ -29,7 +36,7 @@
   background-position: right bottom;
   transition: all .6s ease-out;
 }
-.downsubs:hover, .downtrak:hover, .downhulu:hover, .downgen:hover {  background-position: left bottom; }
+.downsubs:hover, .downtrak:hover, .downtrem, .downhulu:hover, .downgen:hover {  background-position: left bottom; }
 
 .buttontext {
   text-align: center;
@@ -38,10 +45,11 @@
   display: block; 
 }
 .textsubs, .texthardx, .textharda, .texthardb, .textembd { color: #5dbcd2; transition: all .4s ease-out;}
-.texthulu, .texttrak { color: #1CE783; transition: all .4s ease-out;}
+.texthulu { color: #1CE783; transition: all .4s ease-out;}
+.texttrak, .texttrem { color: #be1e2d; transition: all .4s ease-out;}
 .textfont, .textgen, .textextr { color: #b4b4b4; transition: all .4s ease-out;}
 .textsubs:hover, .texthardx:hover, .textharda:hover, .texthardb:hover, .textembd:hover { color: white; }
-.texthulu:hover, .texttrak:hover { color: white; }
+.texthulu:hover, .texttrak:hover, .texttrem:hover { color: white; }
 .textgen:hover, .textfont:hover, .textextr:hover { color: white; }
 
 .textsubs:before {  content: "SOFTSUB";}
@@ -51,6 +59,7 @@
 .textembd:before {  content: "MKV + SUB";}
 .texthulu:before {  content: "SOFTSUB HULU";}
 .texttrak:before {  content: "SOFTSUB";}
+.texttrem:before {  content: "MKV + SUB";}
 .textgen:before {  content: "RAW";}
 .textextr:before {  content: "EPILOGUE & EXTRAS";}
 .textfont:before {  content: "FONT WAJIB";}
