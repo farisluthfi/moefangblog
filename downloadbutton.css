@@ -44,12 +44,13 @@
   line-height: 30px;
   display: block; 
 }
-.textsubs, .texthardx, .textharda, .texthardb, .textembd { color: #5dbcd2; transition: all .4s ease-out;}
-.texthulu { color: #1CE783; transition: all .4s ease-out;}
+.textsubs, .texthardx, .textharda, .texthardb, .textembd, .blankblue { color: #5dbcd2; transition: all .4s ease-out;}
+.texthulu, .blankgreen { color: #1CE783; transition: all .4s ease-out;}
 .texttrak, .texttrem { color: #be1e2d; transition: all .4s ease-out;}
 .textfont, .textgen, .textextr { color: #b4b4b4; transition: all .4s ease-out;}
-.textsubs:hover, .texthardx:hover, .textharda:hover, .texthardb:hover, .textembd:hover { color: white; }
-.texthulu:hover, .texttrak:hover, .texttrem:hover { color: white; }
+
+.textsubs:hover, .texthardx:hover, .textharda:hover, .texthardb:hover, .textembd:hover, .blankblue { color: white; }
+.texthulu:hover, .texttrak:hover, .texttrem:hover, .blankgreen { color: white; }
 .textgen:hover, .textfont:hover, .textextr:hover { color: white; }
 
 .textsubs:before {  content: "SOFTSUB";}
