@@ -1,0 +1,4 @@
+.blankblue { color: #5dbcd2; transition: all .4s ease-out;}
+.blankgreen { color: #1CE783; transition: all .4s ease-out;}
+
+.blankblue:hover, .blankgreen:hover { color: white; }
