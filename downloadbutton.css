@@ -22,7 +22,7 @@
   background-position: right bottom;
   transition: all .6s ease-out;
 }
-.downtrak .downtrem {
+.downtrak, .downtrem {
   border: 2px solid #1CE783;
   background: linear-gradient(to right, #be1e2d 50%, #2a004b  50%);
   background-size: 200% 100%;
@@ -36,7 +36,7 @@
   background-position: right bottom;
   transition: all .6s ease-out;
 }
-.downsubs:hover, .downtrak:hover, .downtrem, .downhulu:hover, .downgen:hover {  background-position: left bottom; }
+.downsubs:hover, .downtrak:hover, .downtrem:hover, .downhulu:hover, .downgen:hover {  background-position: left bottom; }
 
 .buttontext {
   text-align: center;
