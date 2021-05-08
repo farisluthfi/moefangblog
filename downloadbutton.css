@@ -22,7 +22,14 @@
   background-position: right bottom;
   transition: all .6s ease-out;
 }
-.downtrak, .downtrem {
+.downtrak {
+  border: 2px solid #ea4454;
+  background: linear-gradient(to right, #be1e2d 50%, #2a004b  50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .6s ease-out;
+}
+.downtrem {
   border: 2px solid #1CE783;
   background: linear-gradient(to right, #be1e2d 50%, #2a004b  50%);
   background-size: 200% 100%;
