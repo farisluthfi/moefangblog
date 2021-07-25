@@ -1,0 +1,21 @@
+/*-- chord --*/
+p.chord {
+ margin-top:50px;
+	margin-bottom:20px;
+}
+span.chunk {
+ position:relative;
+}
+span.chunk:before {
+	content:attr(data-chord);
+	position:absolute;
+	top:-20px;
+	font-size:12pt;
+	color:#DC3483;
+	font-weight:800;
+}
+.big {
+	font-size:14pt;
+	margin-bottom:20px;
+	color:white;
+}
