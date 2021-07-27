@@ -1,0 +1,32 @@
+/* dipakai di atas modal button */
+.ribbon-end {
+  position: absolute;
+  top: -5px;
+  left: 0;
+  padding: 3pt 8pt 3pt 0pt;
+  background: #5c00a4;
+  box-shadow: -1px 2px 3px rgba(0,0,0,.3);
+  font-size: 6pt;
+  color: #ffff00;
+}
+.ribbon-end:before, .ribbon-end:after {
+  content: "";
+  position: absolute;
+}
+.ribbon-end:before {
+  width: 7px;
+  height: 100%;
+  top: 0;
+  left: -6.5px;
+  padding: 0 0 7px;
+  background: inherit;
+  border-radius: 5px 0 0 5px;
+}
+.ribbon-end:after {
+  width: 5px;
+  height: 5px;
+  bottom: -5px;
+  left: -4.5px;
+  background: #8f00ff;
+  border-radius: 5px 0 0 5px;
+ }
