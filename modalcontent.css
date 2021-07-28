@@ -93,16 +93,16 @@ background:#11c2eb33;
 .scroll-desx {
 font-size:7pt; color:#bac;width:250px; padding-left:7px;}
 
-.scroll-desx span { transition: 0.2s; transition-delay: 0.3s;}
+.scroll-desx span { transition: 0.3s; transition-delay: 0.1s;}
 .scroll-desx:before, .scroll-desx:after {
   content: "";
   position: absolute;
   opacity: 0;
-  transition: 0.8s, opacity 1s;
+  transition: 0.2s, opacity 0.2s;
 }
-.scroll-desx:before { content: attr(data-hover);  transform: translate(-150%, 0); }
-.scroll-desx:after { content: attr(data-active);  transform: translate(150%, 0);}
+.scroll-desx:before { content: attr(data-hover);  font-weight:bold; transform: translate(-2%, 0); }
+.scroll-desx:after { content: attr(data-active);  font-weight:bold; transform: translate(2%, 0);}
 .scroll-desx:hover span, .scroll-desx:active span { opacity: 0; width:0;}
-.scroll-desx:hover:before,  .scroll-desx:active:after { opacity: 1; transform: translate(0, 0); transition-delay: 0s;}
+.scroll-desx:hover:before,  .scroll-desx:active:after { font-weight:bold; opacity: 1; transform: translate(0, 0); transition-delay: 0.2s;}
 
 }
