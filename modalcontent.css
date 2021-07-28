@@ -1,0 +1,88 @@
+/*-- Content dalam modal */
+.entry-image-link{width:100%;height:130px;position:relative;display:block;overflow:hidden}
+.entry-title{font-size:14px;font-weight:700;line-height:1.4em;margin:8px 0 3px}
+.img-head {width : 100%;}
+.scroll-img1 {width:250px; height:auto; border-radius:8px 8px 0px 0px; padding: 2px;}
+.scroll-img2 {width:250px; height:auto; border-radius:0px 0px 8px 8px; padding: 2px 2px 0px 2px;}
+.scroll-img3 {width:250px; height:auto; border-radius:8px; padding: 2px 2px 0px 2px;}
+.scroll-img3bw {width:250px; height:auto; border-radius:8px; padding: 2px 2px 0px 2px; -webkit-filter: grayscale(100%); filter: grayscale(100%);}
+.colorbw {-webkit-filter: grayscale(100%); filter: grayscale(100%);}
+.scroll-img4 {width:350px; height:auto; }
+.scroll-imgv {width:100%; border-radius:8px;}
+.scroll-imgvl {width:100%; height:auto; border-radius:8px;}
+.scroll-text {width:250px; padding-left:5px; font-size:17pt;}
+.scroll-textv {width:100%; padding-left:5px; font-size:17pt;}
+.scroll-textvl {width:100%; padding-left:0px; font-size:17pt; text-align:left;}
+.scroll-name{font-size:12pt; color:white;width:250px; padding-left:5px; font-weight:900;}
+.scroll-namevl{font-size:9pt; color:white;width:100%; padding-left:5px; font-weight:900;}
+.scroll-desc {font-size:9pt; color:white;width:250px; padding-left:5px;}
+.scroll-descv {font-size:10pt; color:white;width:100%; padding-left:5px;}
+.frame {width:100%; overflow:auto; resize: none; background: #18042c; height:auto;}
+.framey {width:100%; overflow:auto; background: #18042c; height:auto;}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a004b ; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #22a7c6; 
+}
+
+.tg  {width:1000px; border-collapse:collapse;border-spacing:0;}
+.tg td{border: 0px; font-size:14px; overflow:hidden;padding:0px 5px 5px;word-break:normal;}
+.tg th{padding:8px; word-break:normal;}
+.tg .tg-0pky{text-align:left;vertical-align:top; }
+.tg .tg-0wdt{text-align:left;vertical-align:top; width:40%}
+.tg .tg-0lax{text-align:left;vertical-align:top;}
+
+
+.tz  {width:auto; border-collapse:collapse;border-spacing:0;}
+.tz td{border: 0px; font-size:14px; overflow:hidden;padding:0px 5px 5px;word-break:normal;}
+.tz th{padding:8px; word-break:normal; width:50%}
+
+hr {width: 100%; height: 3px; margin-left: auto;margin-right: auto; background-color:#22a7c6; border: 0px dashed #000; z-index:1000;}
+
+.textright {
+  text-align: right;
+} 
+
+.idolblog {
+padding: 4px 4px 4px 16px;
+margin-bottom:3px;
+}
+.blogn46 {
+background:#2a004bb3;
+}
+.blogh46 {
+background:#11c2eb33;
+}
+
+#version {
+  background-size: 47px 20px;
+  background-repeat: no-repeat;
+  width: 47px;
+  height: 20px;
+  border:none;
+  margin-left:2px;
+  margin-right:2px;
+  }
+
+
+.infos {
+  height: 30px;
+  overflow: hidden;
+  position: relative;
+  background: #551a8b;
+  color: white;
+  font-weight:900;
+  border-radius: 3px;
+  margin: 0;
+  line-height: 30px;
+  }
