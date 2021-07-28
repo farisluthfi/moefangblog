@@ -17,6 +17,7 @@
 .scroll-name{font-size:12pt; color:white;width:250px; padding-left:5px; font-weight:900;}
 .scroll-namevl{font-size:9pt; color:white;width:100%; padding-left:5px; font-weight:900;}
 .scroll-desc {font-size:9pt; color:white;width:250px; padding-left:5px;}
+.scroll-mini {font-size:7pt; color:#bac;width:250px; padding-left:7px;}
 .scroll-descv {font-size:10pt; color:white;width:100%; padding-left:5px;}
 .frame {width:100%; overflow:auto; resize: none; background: #18042c; height:auto;}
 .framey {width:100%; overflow:auto; background: #18042c; height:auto;}
