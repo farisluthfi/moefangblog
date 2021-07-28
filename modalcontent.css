@@ -103,6 +103,6 @@ font-size:7pt; color:#bac;width:250px; padding-left:7px;}
 .scroll-desx:before { content: attr(data-hover);  transform: translate(-150%, 0); }
 .scroll-desx:after { content: attr(data-active);  transform: translate(150%, 0);}
 .scroll-desx:hover span, .scroll-desx:active span { opacity: 0; width:0;}
-.scroll-desx:hover:before,  .scroll-desx:active:after { font-size:21pt; opacity: 1; transform: translate(0, 0); transition-delay: 0s;}
+.scroll-desx:hover:before,  .scroll-desx:active:after { opacity: 1; transform: translate(0, 0); transition-delay: 0s;}
 
 }
