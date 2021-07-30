@@ -1,0 +1,128 @@
+:root {
+  --nogi: #8b57ad;
+  --hinata: #7bcaea;
+  --sakura: #f3a1b8; 
+  --bgnogi: linear-gradient( to right, #8B52AC 30%, #9059AF 30%);
+  --bghina: linear-gradient( to right, #7bcaea 30%, #96D2EE 30%);
+  --bgsaku: linear-gradient( to right, #f3a1b8 30%, #F6BCBC 30%);
+}
+
+/* ---------------- */
+/* KEADAAN NORMAL */
+/* ---------------- */
+@media only screen and (min-width: 700px){
+/* tabel sakamichi calendar */
+  .calenda  {
+    border-collapse:collapse;
+    border-spacing:0;
+    width: 100%;
+    border:0px;
+  }
+  .calenda th, .calenda tr {
+    border-radius:5px;
+    border:0px;
+    font-weight:normal;
+    padding:2pt;
+  }
+  
+
+/* konten dalam tabel sakamichi calendar */    
+       
+.calc-nogi, .calc-hina, .calc-saku {
+    border-radius:5px;
+    position: relative;color:white;
+    text-shadow: 1pt 1pt 5pt black;
+}
+.calc-nogi { background:var(--bgnogi); }
+.calc-hina { background:var(--bghina); } 
+.calc-saku { background:var(--bgsaku); }
+    
+.calc-nogi img, .calc-hina img, .calc-saku img {
+    display: block;
+    width: 30%;
+    border-radius:5px 0pt 0pt 5pt;
+    padding-top:5pt;
+}
+.calc-nogi .jptx, .calc-hina .jptx, .calc-saku .jptx {
+    position: absolute;
+	margin:0;
+    top: 20%;
+    transform: translate(0, -20%);
+    right: 5%;
+    font-weight:bold;
+    font-size: calc(14pt + (35 - 20) * ((100vw - 300px) / (1600 - 300)));
+}
+.calc-nogi .romaji, .calc-hina .romaji, .calc-saku .romaji {
+    position: absolute;
+	margin:0;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 5%;
+    font-weight:bold;
+    font-size: calc(6pt + (35 - 20) * ((100vw - 300px) / (1600 - 300)));
+}
+.calc-nogi .date, .calc-hina .date, .calc-saku .date {
+    position: absolute;
+	margin:0;
+    top: 60%;
+    transform: translate(10, -50%);
+    font-weight:bold;
+    font-size: calc(3pt + (35 - 20) * ((100vw - 300px) / (1600 - 300)));
+    right: 5%;
+}
+}
+
+
+/* ---------------- */
+/* KEADAAN DI HANDPHONE */
+/* ---------------- */
+
+@media only screen and (max-width: 700px){
+table, thead, tbody, th, td, tr {display: block;}
+
+/* konten dalam tabel sakamichi calendar */    
+       
+.calc-nogi, .calc-hina, .calc-saku {
+    border-radius:10px;
+    position: relative;color:white;
+    text-shadow: 1pt 1pt 5pt black;
+}
+.calc-nogi { background:var(--bgnogi); }
+.calc-hina { background:var(--bghina); } 
+.calc-saku { background:var(--bgsaku); }
+    
+.calc-nogi img, .calc-hina img, .calc-saku img {
+    display: block;
+    width: 30%;
+    border-radius:10px 0pt 0pt 10pt;
+    padding-top:5pt;
+}
+.calc-nogi .jptx, .calc-hina .jptx, .calc-saku .jptx {
+    position: absolute;
+	margin:0;
+    top: 20%;
+    transform: translate(0, -20%);
+    right: 5%;
+    font-weight:bold;
+    font-size: calc(14pt + (35 - 20) * ((100vw - 300px) / (1600 - 300)));
+}
+.calc-nogi .romaji, .calc-hina .romaji, .calc-saku .romaji {
+    position: absolute;
+	margin:0;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 5%;
+    font-weight:bold;
+    font-size: calc(12pt + (35 - 20) * ((100vw - 300px) / (1600 - 300)));
+}
+.calc-nogi .date, .calc-hina .date, .calc-saku .date {
+    position: absolute;
+	margin:0;
+    top: 60%;
+    transform: translate(10, -50%);
+    font-weight:bold;
+    font-size: calc(8pt + (35 - 20) * ((100vw - 300px) / (1600 - 300)));
+    right: 5%;
+}
+}
+}
