@@ -1,0 +1,194 @@
+:root {
+  --nogi: #8b57ad;
+  --hinata: #7bcaea;
+  --keya: #31BB38; 
+  --sakura: #f3a1b8;
+  --bgnogi: linear-gradient( to right, #8B52AC 30%, #9059AF 30%); 
+  --bghina: linear-gradient( to right, #7bcaea 30%, #96D2EE 30%);
+  --bgsaku: linear-gradient( to right, #f3a1b8 30%, #F6BCBC 30%);
+  --bggrad: linear-gradient( to right, #b7b7b75e 30%, #cacaca33  30%);
+}
+
+/* ---------------- */
+/* KEADAAN NORMAL */
+/* ---------------- */
+@media only screen and (min-width: 700px){
+/* tabel sakamichi calendar */
+  .calenda  {
+    border-collapse:collapse;
+    border-spacing:0;
+    width: 100%;
+    border:0px;
+  }
+  .calenda th, .calenda tr {
+    border-radius:5px;
+    border:0px;
+    font-weight:normal;
+    padding:2pt;
+    width:50%;
+  }
+  
+
+/* konten dalam tabel sakamichi calendar */    
+       
+.calc-nogi, .calc-hina, .calc-saku {
+    border-radius:5px;
+    position: relative;
+    color:white;
+    text-shadow: 1pt 1pt 5pt black;
+} 
+.calc-gradn, .calc-gradk, .calc-gradh, .calc-grads {
+    border-radius:5px;
+    position: relative;
+}
+.calc-gradn { color:var(--nogi);}
+.calc-gradk { color:var(--keya);}
+.calc-gradh { color:var(--hinata);}
+.calc-grads { color:var(--sakura);}
+
+.calc-nogi { background:var(--bgnogi); }
+.calc-hina { background:var(--bghina); } 
+.calc-saku { background:var(--bgsaku); }
+.calc-gradn { background:var(--bggrad); }
+.calc-gradk { background:var(--bggrad); }
+.calc-gradh { background:var(--bggrad); }
+.calc-grads { background:var(--bggrad); }
+     
+.calc-nogi img, .calc-hina img, .calc-saku img {
+    display: block;
+    width: 30%;
+    border-radius:5px 0pt 0pt 5pt;
+    padding-top:5pt;
+}
+ .calc-gradn img, .calc-gradk img, .calc-gradh img, .calc-grads img {
+    display: block;
+    width: 30%;
+    border-radius:5px 0pt 0pt 5pt;
+    padding-top:5pt;
+	filter: grayscale(50%); 
+	filter: opacity(90%); 
+ }
+.calc-nogi .jptx, .calc-hina .jptx, .calc-saku .jptx, .calc-gradn .jptx, .calc-gradk .jptx, .calc-gradh .jptx, .calc-grads .jptx {
+    position: absolute;
+	margin:0;
+    top: 20%;
+    transform: translate(0, -20%);
+    right: 5%;
+    font-weight:bold;
+    font-size: 18pt;
+}
+.calc-nogi .romaji, .calc-hina .romaji, .calc-saku .romaji, .calc-gradn .romaji, .calc-gradk .romaji, .calc-gradh .romaji, .calc-grads .romaji {
+    position: absolute;
+	margin:0;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 5%;
+    font-weight:bold;
+    font-size: 15pt;
+}
+
+.calc-nogi .gen, .calc-hina .gen, .calc-saku .gen, .calc-gradn .gen, .calc-gradk .gen, .calc-gradh .gen, .calc-grads .gen {
+    position: absolute;
+	margin:0;
+    top: 68%;
+    transform: translate(0, -68%);
+    right: 5%;
+    font-weight:300;
+    font-size: 8pt;
+}
+.calc-nogi .date, .calc-hina .date, .calc-saku .date, .calc-gradn .date, .calc-gradk .date, .calc-gradh .date, .calc-grads .date {
+    position: absolute;
+	margin:0;
+    top: 70%;
+    transform: translate(10, -70%);
+    font-weight:bold;
+    font-size: 13pt;
+    right: 5%;
+}
+}
+
+
+/* ---------------- */
+/* KEADAAN DI HANDPHONE */
+/* ---------------- */
+
+@media only screen and (max-width: 700px){
+table, thead, tbody, th, td, tr {display: block;}
+
+/* konten dalam tabel sakamichi calendar */    
+       
+.calc-nogi, .calc-hina, .calc-saku {
+    border-radius:5px;
+    position: relative;
+    color:white;
+    text-shadow: 1pt 1pt 5pt black;
+    width:100%;
+} 
+.calc-gradn, .calc-gradk, .calc-gradh, .calc-grads {
+    border-radius:5px;
+    position: relative;
+}
+.calc-gradn { color:var(--nogi);}
+.calc-gradk { color:var(--keya);}
+.calc-gradh { color:var(--hinata);}
+.calc-grads { color:var(--sakura);}
+
+.calc-nogi { background:var(--bgnogi); }
+.calc-hina { background:var(--bghina); } 
+.calc-saku { background:var(--bgsaku); }
+.calc-gradn { background:var(--bggrad); }
+.calc-gradk { background:var(--bggrad); }
+.calc-gradh { background:var(--bggrad); }
+.calc-grads { background:var(--bggrad); }
+     
+.calc-nogi img, .calc-hina img, .calc-saku img {
+    display: block;
+    width: 30%;
+    border-radius:5px 0pt 0pt 5pt;
+    padding-top:5pt;
+}
+ .calc-gradn img, .calc-gradk img, .calc-gradh img, .calc-grads img {
+    display: block;
+    width: 30%;
+    border-radius:5px 0pt 0pt 5pt;
+    padding-top:5pt;
+	filter: grayscale(50%); 
+	filter: opacity(90%); 
+ }
+.calc-nogi .jptx, .calc-hina .jptx, .calc-saku .jptx, .calc-gradn .jptx, .calc-gradk .jptx, .calc-gradh .jptx, .calc-grads .jptx {
+    position: absolute;
+	margin:0;
+    top: 20%;
+    transform: translate(0, -20%);
+    right: 5%;
+    font-weight:bold;
+    font-size: calc(20pt + (35 - 20) * ((100vw - 300px) / (1600 - 300)));
+}
+.calc-nogi .romaji, .calc-hina .romaji, .calc-saku .romaji, .calc-gradn .romaji, .calc-gradk .romaji, .calc-gradh .romaji, .calc-grads .romaji {
+    position: absolute;
+	margin:0;
+    top: 45%;
+    transform: translate(0, -45%);
+    right: 5%;
+    font-weight:bold;
+    font-size: calc(17pt + (35 - 20) * ((100vw - 300px) / (1600 - 300)));
+}
+.calc-nogi .gen, .calc-hina .gen, .calc-saku .gen, .calc-gradn .gen, .calc-gradk .gen, .calc-gradh .gen, .calc-grads .gen {
+    position: absolute;
+	margin:0;
+    top: 60%;
+    transform: translate(0, -60%);
+    right: 5%;
+    font-weight:300;
+    font-size: calc(12pt + (35 - 20) * ((100vw - 300px) / (1600 - 300)));
+}
+.calc-nogi .date, .calc-hina .date, .calc-saku .date, .calc-gradn .date, .calc-gradk .date, .calc-gradh .date, .calc-grads .date {
+    position: absolute;
+	margin:0;
+    top: 70%;
+    transform: translate(10, -70%);
+    font-weight:bold;
+    font-size: calc(15pt + (35 - 20) * ((100vw - 300px) / (1600 - 300)));
+    right: 5%;
+}
+}
