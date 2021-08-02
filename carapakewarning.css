@@ -29,8 +29,8 @@
 .nott1, .nott2, .nott3, .nott4, .nott5, .nott6, .stepsoft1, .stepsoft2, .stepsoft3, .stepsoft4, .stepsoft5, .stephard1, .stephard2, .stephard3, .stepngkia, .stepngkib, .stepngkic {
 padding-left:13pt; text-align:justify; padding-bottom:3pt; padding-top:2pt; color:white; font-size:11pt;
 }
-.nott1:before { content: "Dilarang menghapus credit ";}
-.nott2:before { content: "Dilarang mengkomersialkan subs ini dengan alasan apapun ";}
+.nott1:before { content: "Dilarang menghapus credit, apalagi mengklaim ";}
+.nott2:before { content: "Dilarang upload konten ini di fanshare apapun dengan alasan dan tujuan apapun ";}
 .nott3:before { content: "Dilarang membuat hardsub dengan menggantinya, baik sedikit atau keseluruhan ";}
 .nott4:before { content: "Dilarang mengedit segala isi di sub ini tanpa izin ";}
 .nott5:before { content: "Dilarang menyalin style ciri khas MoeFang Subs ";}
