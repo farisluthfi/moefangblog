@@ -19,19 +19,31 @@
 
         /* Modal Content */
         .modal-content {
-position: fixed;
-  top: 50%;
-  left: 50%;
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%);
-            background-color: #18042c;
-            border: 20px solid #18042c;
-            border-radius: 10pt;
-            width: 80%;
-            animation:fadein .5s;
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		/* bring your own prefixes */
+		transform: translate(-50%, -50%);
+		background-color: #18042c;
+		border: 20px solid #18042c;
+		border-radius: 10pt;
+		width: 80%;
+		animation:fadein .5s;
         }
 
+        .modal-contentfit {
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		/* bring your own prefixes */
+		transform: translate(-50%, -50%);
+		background-color: #18042c;
+		border: 20px solid #18042c;
+		border-radius: 10pt;
+		animation:.5s ease;
+        }
 
+@media only screen and (max-width: 850px) { .modal-contentfit {width:80%;}}
         /* The Close Button */
         .close {
             color: #f2f2f2;
