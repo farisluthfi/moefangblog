@@ -1,0 +1,105 @@
+  .modal-animate-top{position:relative;animation:animatetop 0.4s;}
+  @keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+  
+        /* The Modal (background) */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 9999; /* Sit on top */
+            padding-top: 100px; /* Location of the box */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+			transition: .5s;
+        }
+
+        /* Modal Content */
+        .modal-content {
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		/* bring your own prefixes */
+		transform: translate(-50%, -50%);
+		background-color: #18042c;
+		border: 20px solid #18042c;
+		border-radius: 10pt;
+		width: 80%;
+		animation:fadein .5s;
+        }
+
+        .modal-content2, .modal-content3, .modal-content4 {
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		/* bring your own prefixes */
+		transform: translate(-50%, -50%);
+		background-color: #18042c;
+		border: 20px solid #18042c;
+		border-radius: 10pt;
+		animation:.5s ease;
+        }
+
+@media only screen and (max-width: 720px) { .modal-content2 {width:80%;}}
+@media only screen and (max-width: 876px) { .modal-content3 {width:80%;}}
+@media only screen and (max-width: 1160px) { .modal-content4 {width:80%;}}
+
+
+
+        /* The Close Button */
+        .close {
+            color: #f2f2f2;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #338fff;
+            text-decoration: none;
+            cursor: pointer;         
+        }
+        
+.myBtn_multi {
+    width: auto;
+    background: none;
+    border: 0;
+    border-radius: 8pt;
+    display: inline-block;
+    cursor: pointer;
+    transition: .4s;
+    transition-timing-function: ease-in-out;
+outline: none;
+}
+
+.myBtn_multi:hover {
+filter: sepia(100%) hue-rotate(220deg) saturate(170%) brightness(60%);
+transform: scale(97%) translateZ(5px);
+box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.40);
+}
+.myBtn_multi:active {
+filter:blur(2);
+}
+
+.myBtn_nomodal {
+    width: auto;
+    background: none;
+    border: 0;
+    border-radius: 8pt;
+    display: inline-block;
+    cursor: pointer;
+    transition: .5s;
+outline: none;
+}
+
+.myBtn_nomodal:hover {
+filter:saturate(8);filter:contrast(100%) brightness(180%);
+  transform: translateY(3px);
+}
+.myBtn_nomodal:active {
+filter:blur(2);
+}
