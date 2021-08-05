@@ -1,0 +1,44 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+.infog {
+padding-left:45pt;
+padding-top:8pt;
+padding-right:12pt;
+padding-bottom:8pt;
+background:#1EAC5A;
+border-radius:8pt;
+}
+.whymkva, .whymkvb {
+display:block;
+width:auto;
+color:white;
+margin:0;
+text-align: justify;
+line-height:150%;
+font-family: 'Nunito',sans-serif;
+}
+.infog:before {
+position:absolute;
+left:0;
+top:3pt;
+padding:10px;
+color:#ffffff7a;
+font-size:30pt;
+display:inline-block;
+}
+@media only screen and (min-width: 1215px) {
+.infog:before {
+left:0;
+top:0pt;
+padding:10px;
+color:#ffffff7a;
+font-size:20pt;
+}}
+.whymkva:before {
+content:"Mengapa MKV Sub Embed?";
+font-weight:bold;
+color: yellow;
+}
+.whymkvb:after {
+content:" Fungsinya bila hendak di-screenshot, bisa tanpa subtitle dengan cara di-hide dari playernya (cara hiding subtitle tergantung playernya. Silakan cari di Google)";
+}
