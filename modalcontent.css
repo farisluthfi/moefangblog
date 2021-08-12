@@ -6,7 +6,7 @@
 .scroll-img1 {width:250px; height:auto; border-radius:8px 8px 0px 0px; padding: 2px;}
 .scroll-img2 {width:250px; height:auto; border-radius:0px 0px 8px 8px; padding: 2px 2px 0px 2px;}
 .scroll-img3 {width:250px; height:auto; border-radius:8px; padding: 2px 2px 0px 2px;}
-.scroll-img3bw {width:250px; height:auto; border-radius:8px; padding: 2px 2px 0px 2px; -webkit-filter: grayscale(100%); filter: grayscale(100%);}
+.scroll-img3bw {width:250px; height:auto; border-radius:8px; padding: 2px 2px 0px 2px; -webkit-filter: grayscale(100%) brightness(0.4); filter: grayscale(100%) brightness(0.4);}
 .colorbw {-webkit-filter: grayscale(100%); filter: grayscale(100%);}
 .scroll-img4 {width:350px; height:auto; }
 .scroll-imgv {width:100%; border-radius:8px;}
