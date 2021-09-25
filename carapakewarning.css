@@ -41,8 +41,8 @@ padding-left:13pt; text-align:justify; padding-bottom:3pt; padding-top:2pt; colo
 .stepsoft3:before { content: "Jangan lupa untuk download font wajibnya";}
 .stepsoft4:before { content: "Simpan di folder yang sama, dan berikan nama yang sama juga.";}
 .stepsoft5:before { content: "Putar videonya di PC kalian dengan media player selain bawaan Windows.";}
-.stephard1:before { content: "Download file MKV diatas yang sudah di-zip";}
-.stephard2:before { content: "Silakan ekstrak menggunakan 7Zip atau WinRar dengan password ";}
+.stephard1:before { content: "Download file hardsub diatas yang sudah di-zip";}
+.stephard2:before { content: "Ekstrak menggunakan 7Zip atau WinRar dengan password ";}
 .stephard3:before { content: "Bagi yang mengunduh versi hardsubnya, silakan ekstrak menggunakan 7Zip atau WinRar dengan password ";}
 .stepngkia:before { content: "Untuk versi Epilogue, masukan passwordnya ";}
 .stepngkib:before { content: "Untuk versi Individual, masukan passwordnya ";}
