@@ -1,0 +1,102 @@
+/* dipakai di atas modal button */
+/* NEXT GARAPAN */
+.ribbon-next {
+  position: absolute;
+  top: -5px;
+  left: 0;
+  padding: 3pt 8pt 3pt 0pt;
+  background: tomato;
+  box-shadow: -1px 2px 3px rgba(0,0,0,.3);
+  font-size: 6pt;
+  color: #ffff00;
+}
+.ribbon-next:before, .ribbon-next:after {
+  content: "";
+  position: absolute;
+}
+.ribbon-next:before {
+  width: 7px;
+  height: 100%;
+  top: 0;
+  left: -6.5px;
+  padding: 0 0 7px;
+  background: inherit;
+  border-radius: 5px 0 0 5px;
+}
+.ribbon-next:after {
+  width: 5px;
+  height: 5px;
+  bottom: -5px;
+  left: -4.5px;
+  background: #8f00ff;
+  border-radius: 5px 0 0 5px;
+ }
+ 
+/* ON PROGRESS */
+.ribbon-on {
+  position: absolute;
+  top: -5px;
+  left: 0;
+  padding: 3pt 8pt 3pt 0pt;
+  background: green;
+  box-shadow: -1px 2px 3px rgba(0,0,0,.3);
+  font-size: 6pt;
+  color: white;
+}
+.ribbon-on:before, .ribbon-on:after {
+  content: "";
+  position: absolute;
+}
+.ribbon-on:before {
+  width: 7px;
+  height: 100%;
+  top: 0;
+  left: -6.5px;
+  padding: 0 0 7px;
+  background: inherit;
+  border-radius: 5px 0 0 5px;
+}
+.ribbon-on:after {
+  width: 5px;
+  height: 5px;
+  bottom: -5px;
+  left: -4.5px;
+  background: #8f00ff;
+  border-radius: 5px 0 0 5px;
+ }
+
+/* ON HOLD */
+.ribbon-hold {
+  position: absolute;
+  top: -5px;
+  left: 0;
+  padding: 3pt 8pt 3pt 0pt;
+  background: #981420;
+  box-shadow: -1px 2px 3px rgba(0,0,0,.3);
+  font-size: 6pt;
+  color: white;
+}
+.ribbon-hold:before, .ribbon-hold:after {
+  content: "";
+  position: absolute;
+}
+.ribbon-hold:before {
+  width: 7px;
+  height: 100%;
+  top: 0;
+  left: -6.5px;
+  padding: 0 0 7px;
+  background: inherit;
+  border-radius: 5px 0 0 5px;
+}
+.ribbon-hold:after {
+  width: 5px;
+  height: 5px;
+  bottom: -5px;
+  left: -4.5px;
+  background: #8f00ff;
+  border-radius: 5px 0 0 5px;
+ }
+
+
+ 
