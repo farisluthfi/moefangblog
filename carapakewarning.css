@@ -26,7 +26,7 @@
     font-weight: 900;
 }
 .nott:before { content: "DILARANG  "; color:#be2836;}
-.carapake:before { content: "Cara penggunaan"; color:#DC3483;}
+.carapake:before { content: "CARA PAKAI & PASSWORD "; color:#b04dff;}
 
 .nott1, .nott2, .nott3, .nott4, .nott5, .nott6, .stepsoft1, .stepsoft2, .stepsoft3, .stepsoft4, .stepsoft5, .stephard1, .stephard2, .stephard3, .stepngkia, .stepngkib, .stepngkic {
 padding-left:13pt; text-align:justify; padding-bottom:3pt; padding-top:2pt; color:white; font-size:11pt;
